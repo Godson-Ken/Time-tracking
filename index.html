@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+    <div class="container">
+      <div class="user">
+        <div class="user-info">
+          <img src="images/image-jeremy.png" alt="user image">
+
+          <small>Report for</small>
+          <h3> Jeremy Robson</h3>
+        </div>
+        <div class="user-time">
+          <a href="#" class="user-timeframe" id="daily">Daily</a>
+          <a href="#" class="user-timeframe" id="weekly">Weekly</a>
+          <a href="#" class="user-timeframe" id="monthly">Monthly</a>
+         </div>
+      </div>
+      <div class="report">
+        <div class="work">
+          <div class="report-details">
+             <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            <h4 >Work</h4>
+            <h1 id="work-current">32hrs</h1>
+            <small id="work-previous">Last week - 36hrs</small>
+          </div> 
+        </div>
+        <div class="play">
+          <div class="report-details">
+             <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            <h4>Play</h4>
+            <h1 id="play-current">10hrs</h1>
+            <small id="play-previous">Last week - 8hrs</small>
+          </div>
+        </div>
+
+        <div class="study">
+          <div class="report-details">
+             <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            <h4>Study</h4>
+            <h1 id="study-current">4hrs</h1>
+            <small id="study-previous">Last week - 7hrs</small>
+          </div>
+        </div>
+
+        <div class="exercise">
+          <div class="report-details">
+             <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            <h4>Exercise</h4>
+            <h1 id="exercise-current">4hrs</h1>
+            <small id="exercise-previous">Last week - 36hrs</small>
+          </div>
+        </div>
+
+        <div class=" social">
+          <div class="report-details">
+            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            <h4>Social</h4>
+            <h1 id="social-current">5hrs</h1>
+            <small id="social-previous">Last week - 36hrs</small>
+          </div>
+        </div>
+
+        <div class=" self-care">
+          <div class="report-details">
+             <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            <h4>Self Care</h4>
+            <h1 id="self-care-current">2hrs</h1>
+            <small id="self-care-previous">Last week - 36hrs</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
